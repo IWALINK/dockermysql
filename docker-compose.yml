@@ -23,7 +23,7 @@ services:
       PMA_USER: ${MYSQL_USER}
       PMA_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - "8002:80"
+      - "9001:80"
     depends_on:
       - mysql
     restart: unless-stopped
